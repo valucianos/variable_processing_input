@@ -1,0 +1,10 @@
+var cost=Number(prompt("What is your bill total?"));
+var taxed=(0.07*cost);
+document.body.querySelector("#cool").innerHTML=cost;
+document.body.querySelector("#cool").innerHTML=taxed;
+var bill=taxed+cost;
+document.body.querySelector("#cool").innerHTML=bill;
+var tip=(bill*0.05);
+document.body.querySelector("#cool").innerHTML=tip;
+var total=bill+tip;
+document.body.querySelector("#cool").innerHTML=total;
